@@ -28,11 +28,12 @@ ps9pr3.py
   
 ps9pr4.py
   Defines the AIPlayer class. An AIPlayer object has four init fields:
-    Checker - assigns 'X' or 'O' as the player's checker
+  
+  Checker - assigns 'X' or 'O' as the player's checker
     
-    Tiebreak - if the AIPlayer decides that multiple moves are in its best interest, the tiebreak value,        "LEFT" or "RIGHT" tells the AI to choose the leftmost best move or the rightmost best move,                 respectively. The value can also be "RANDOM" to choose a random best move.
+  Tiebreak - if the AIPlayer decides that multiple moves are in its best interest, the tiebreak value, "LEFT" or "RIGHT" tells the AI to choose the leftmost best move or the rightmost best move,                 respectively. The value can also be "RANDOM" to choose a random best move.
     
-    Lookahead - determines the amount of moves the AI can "see into the future." Using recursion, the AI        will assess the outcome of every possible move it could make as well as a certain amount of moves on        top of that move using the resulting hypothetical board. The amount of future possible moves the AI is      assessing is the lookahead value. 
+ Lookahead - determines the amount of moves the AI can "see into the future." Using recursion, the AI        will assess the outcome of every possible move it could make as well as a certain amount of moves on        top of that move using the resulting hypothetical board. The amount of future possible moves the AI is      assessing is the lookahead value. 
     
     
     
